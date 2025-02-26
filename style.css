@@ -35,7 +35,7 @@ li a:hover {
 .container {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 50px 740px 100px;
+    grid-template-rows: 50px 700px 100px;
 }
 
 .navigation {
@@ -77,8 +77,31 @@ h2 {
     text-shadow: 2px 2px 5px black;
 }
 
-h3{
+h3 {
     padding-left: 30%;
     font-size: 30px;
 }
 
+.button {
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color: #75582c;
+    border: 5px double rgb(255, 255, 255);
+    cursor: grab;
+}
+
+.button:hover {
+    background-color: #a1865d;
+}
+
+h4 {
+    padding-left: 15%;
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 25px;
+    text-align: center;
+}
