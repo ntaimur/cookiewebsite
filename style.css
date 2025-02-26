@@ -35,7 +35,7 @@ li a:hover {
 .container {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 50px 700px 100px;
+    grid-template-rows: 50px 750px 100px;
 }
 
 .navigation {
@@ -74,7 +74,7 @@ h2 {
     font-size: 80px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: 2px 2px 5px black;
+
 }
 
 h3 {
